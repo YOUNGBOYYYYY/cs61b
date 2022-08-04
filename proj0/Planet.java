@@ -1,9 +1,9 @@
 public class Planet {
-    double xxPos = 0;
-    double yyPos = 0;
-    double xxVel = 0;
-    double yyVel = 0;
-    double mass = 0;
+    private double xxPos = 0;
+    private double yyPos = 0;
+    private double xxVel = 0;
+    private double yyVel = 0;
+    private double mass = 0;
     String imgFileName = "";
     public Planet(double xP, double yP, double xV,
                   double yV, double m, String img) {
